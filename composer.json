@@ -1,0 +1,18 @@
+{
+    "name": "mario/fake-repo",
+    "description": "Just a fake repo",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "Mario\\": "src/Mario/"
+      }
+    },
+    "authors": [
+        {
+            "name": "Mario Juárez",
+            "email": "pachinsv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
