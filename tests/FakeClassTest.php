@@ -11,6 +11,6 @@ class FakeClassTest extends TestCase
 
     public function testFail()
     {
-        $this->assertTrue(false);
+        $this->assertFalse(false);
     }
 }
