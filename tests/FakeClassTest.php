@@ -8,4 +8,9 @@ class FakeClassTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function testFail()
+    {
+        $this->assertTrue(false);
+    }
 }
